@@ -14,7 +14,7 @@ It uses Frida and Pymem to hook the method and dump the bitmap from memory.
 
 Images will be dumped to the CWD where you ran python.
 
-Optional: If you app has a lot of time bitmaps (usually UI stuff: button, scroll bars...) you can set a size threshold to filter those out.
+Optional: If you app has a lot of small bitmaps (usually UI stuff: button, scroll bars...) you can set a size threshold to filter those out.
 Uncomment this code in the .js file + change the threshold as your target requires:
 ```
     // ------------------------------------------------------------------------------

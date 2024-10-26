@@ -1,5 +1,5 @@
 # DumpDibDump
-This project helps you dump graphics drawn by Windows applicatin which use the [DrawDibDraw API](https://learn.microsoft.com/en-us/windows/win32/api/vfw/nf-vfw-drawdibdraw).
+This project helps you dump graphics drawn by Windows applications which use the [DrawDibDraw API](https://learn.microsoft.com/en-us/windows/win32/api/vfw/nf-vfw-drawdibdraw).
 It uses Frida and Pymem to hook the method and dump the bitmap from memory.
 
 # Installation
